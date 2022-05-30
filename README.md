@@ -44,7 +44,7 @@ Las rutas de la aplicación son las siguientes:
     - 'services' que abre ServicesComponent.
     - 'contact' que abre ConctactComponent.
 
-Las componentes de admin están formadas por (cards)[https://getbootstrap.com/docs/4.0/components/card/] de Boostrap, con un título, contenido y enlace.
+Las componentes de admin están formadas por [cards](https://getbootstrap.com/docs/4.0/components/card/) de Boostrap, con un título, contenido y enlace.
 
 ### 4.2 Creando la aplicación a partir de la base <a name="creando"/>
 La aplicación para gestionar la plantilla de jugadores de un equipo tendrá los enlaces: Inicio, Plantilla, Añadir jugador y Cerrar sesión, por lo que se modificará el componente header para añadir dichos enlaces. Se han generado las componentes Plantilla y Addjugador dentro del módulo admin, y se han elimnado las que no se van a utilziar.
