@@ -1,0 +1,16 @@
+<div class="container pt-5 pb-5">
+    <div class="col-12">
+        <div class="d-flex flex-wrap justify-content-between">
+            <div class="card shadow mt-2" *ngFor="let item of plantilla">
+                <div class="card-body">
+                    <h5 class="card-title">{{item.numero}}</h5>
+                    <img src="{{item.imagen}}"><br/><br/>
+                    <h4 class="card-title">{{item.nombre}} {{item.apellidos}}</h4>
+                    <h4 class="card-title">{{item.posicion}}</h4>
+                    <a class="btn btn-primary btn-sm" (click)="onEdit(item.numero)">Editar</a>&nbsp;
+                    <a class="btn btn-danger btn-sm" (click)="onDelete(item.numero)">Eliminar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

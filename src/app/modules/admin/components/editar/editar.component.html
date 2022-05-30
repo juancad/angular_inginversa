@@ -1,0 +1,25 @@
+<div class="container pt-5 pb-5">
+    <form [formGroup]="form">
+        <div class="form-group">
+            <label for="exampleInputNumber">Número del jugador</label>
+            <input type="number" class="form-control" formControlName="numero">
+        </div><br/>
+        <div class="form-group">
+            <label for="exampleInputNumber">Nombre</label>
+            <input type="text" class="form-control" formControlName="nombre">
+        </div><br/>
+        <div class="form-group">
+            <label for="exampleInputNumber">Apellidos</label>
+            <input type="text" class="form-control" formControlName="apellidos">
+        </div><br/>
+        <div class="form-group">
+            <label for="exampleInputNumber">Posicion</label>
+            <input type="text" class="form-control" formControlName="posicion">
+        </div><br/>
+        <div class="form-group">
+            <label for="exampleInputNumber">Link imagen</label>
+            <input type="text" class="form-control" formControlName="imagen">
+        </div><br/>
+        <button type="submit" class="btn btn-primary" (click)="editar(jugador)">Editar</button>
+    </form>
+</div>
