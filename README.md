@@ -55,4 +55,4 @@ Se ha creado el componente *EditarComponent*, que permite modificar un jugador. 
 
 En el home se ha publicado información sobre el club.
 
-Toda la información ha sido sacada de la página oficial del club: (UD Las Palmas)[https://www.udlaspalmas.es/].
+Toda la información ha sido sacada de la página oficial del club: [UD Las Palmas](https://www.udlaspalmas.es/).
