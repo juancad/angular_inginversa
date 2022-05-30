@@ -25,7 +25,9 @@ Para poder ejecutar el proyecto será necesario:
 
 ## 3. Credenciales<a name="user-prueba"/>
 Para probar la aplicación se puede iniciar sesión con las siguientes credenciales:
+
 Correo: admin@gmail.com
+
 Contraseña: admindaw2
 
 ## 4. Descripción del trabajo realizado<a name="descripcion"/>
